@@ -6,14 +6,14 @@ Smart Recipe & Macro Planner is an interactive command-line application built in
 Meal prepping usually means juggling three separate chores: choosing recipes, checking whether they fit your nutrition goals, and writing a shopping list. This tool combines them. Pick meals for any day of the week, scale the servings, see calories and macronutrients instantly, and export one consolidated grocery list grouped by store aisle.
 
 ✨ Features
-🍽️ Recipe catalogue with 9 built-in recipes and per-serving calories, protein, carbs and fat
-🗓️ Weekly meal planner: assign any recipe to any day, as many times as you like
-⚖️ Flexible serving sizes: whole or fractional servings (1.5), scaled automatically from the recipe's base yield
-📊 Macro tracking per meal, per day, and for the whole plan, including each day's calorie split (% from protein, carbs and fat)
-🛒 Smart grocery list that merges identical ingredients across all planned meals and groups them by category (Produce, Meat & Fish, Pantry, ...)
-💾 Export to .txt as a ready-to-use shopping checklist
-🧰 Forgiving input: pick recipes by number, full name or partial name; pick days by number, Mon or Monday; leave any prompt blank to cancel
-✅ Validated data: the program checks at startup that every recipe only uses known ingredients
+-🍽️ Recipe catalogue with 9 built-in recipes and per-serving calories, protein, carbs and fat
+-🗓️ Weekly meal planner: assign any recipe to any day, as many times as you like
+-⚖️ Flexible serving sizes: whole or fractional servings (1.5), scaled automatically from the recipe's base yield
+-📊 Macro tracking per meal, per day, and for the whole plan, including each day's calorie split (% from protein, carbs and fat)
+-🛒 Smart grocery list that merges identical ingredients across all planned meals and groups them by category (Produce, Meat & Fish, Pantry, ...)
+-💾 Export to .txt as a ready-to-use shopping checklist
+-🧰 Forgiving input: pick recipes by number, full name or partial name; pick days by number, Mon or Monday; leave any prompt blank to cancel
+-✅ Validated data: the program checks at startup that every recipe only uses known ingredients
 
 🚀 Getting Started
 Prerequisites
@@ -22,7 +22,7 @@ pip
 Installation
 bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/smart-recipe-macro-planner.git
+git clone https://github.com/thanossavvopoulos/smart-recipe-macro-planner.git
 cd smart-recipe-macro-planner
 
 # 2. (Optional) create a virtual environment
@@ -53,6 +53,7 @@ Smart Recipe & Macro Planner
 6. Remove a meal
 7. Clear the plan
 0. Exit
+
 Option	What it does
 1	Lists every recipe with its base yield and macros per serving
 2	Adds a meal: choose a recipe (number or name), the number of servings, and a day
@@ -130,3 +131,4 @@ The recipe and food databases are built into project.py.
 
 👤 Author
 Athanasios Savvopoulos
+Github name: thanossavvopoulos
